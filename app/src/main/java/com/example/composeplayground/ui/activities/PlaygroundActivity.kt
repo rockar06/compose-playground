@@ -1,4 +1,4 @@
-package com.example.composeplayground
+package com.example.composeplayground.ui.activities
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -23,9 +23,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.composeplayground.R
 import com.example.composeplayground.ui.theme.ComposePlaygroundTheme
 
-class MainActivity : ComponentActivity() {
+class PlaygroundActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
